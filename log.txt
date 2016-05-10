@@ -1,0 +1,47 @@
+commit c0969590964558ba28f9fda5600d96f909e06b63
+Author: AUSTIN B MALERBA <abm6121@cs.rit.edu>
+Date:   Sun May 17 21:52:57 2015 -0400
+
+    Fully functional except bug where won't exit unless sender and receiver are running. Suspect it's getting stuck on an fclose statement. No leaks.
+
+commit 528e823d2283f79e110437b1c9c160f103f3ad0f
+Author: AUSTIN B MALERBA <abm6121@cs.rit.edu>
+Date:   Sun May 17 20:12:30 2015 -0400
+
+    Filter bugs appear fixed.
+
+commit 71828e72dcbb40c4f1da25a7ffb681d64c89e9ca
+Author: AUSTIN B MALERBA <abm6121@cs.rit.edu>
+Date:   Sun May 17 19:51:52 2015 -0400
+
+    Revision to allow partial packets to be written out. Still encountering filter bugs.
+
+commit dfd78ce9ca0bff765e7a4d92cea0536dedb448cf
+Author: AUSTIN B MALERBA <abm6121@cs.rit.edu>
+Date:   Sun May 17 18:08:43 2015 -0400
+
+    Still needs to exit on user input of 0 and bugs in filter need to be fixed (not blocking all packets that it should be)
+
+commit 89ad0f45b2f0052be157b33ffae6d573fb7eed5f
+Author: AUSTIN B MALERBA <abm6121@cs.rit.edu>
+Date:   Sun May 17 15:05:25 2015 -0400
+
+    packets read and write to/from pipes without the filter
+
+commit 3f787c68cedee8a49d188e016c3a3505c49092ba
+Author: AUSTIN B MALERBA <abm6121@cs.rit.edu>
+Date:   Sat May 16 14:00:06 2015 -0400
+
+    Mode loop set up in main
+
+commit c2647937a39935095533ffa5668b2525cda81b49
+Author: AUSTIN B MALERBA <abm6121@cs.rit.edu>
+Date:   Sat May 16 12:47:52 2015 -0400
+
+    filter close to done, outline of main function in place
+
+commit e35382c20ba0e240471d0845763f021f50059d5e
+Author: AUSTIN B MALERBA <abm6121@cs.rit.edu>
+Date:   Fri May 15 12:33:28 2015 -0400
+
+    initial commit
